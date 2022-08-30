@@ -43,6 +43,6 @@ export function DynamicSearch(toSearch, list){
         return list.flexFilter(query)      
       } catch (err) {
         console.log(err.message)
-        return []
+        //return []
       }
 }
