@@ -1,6 +1,6 @@
 {
   "name": "@jearbecerro/dynamicsearch",
-  "version": "0.0.1",
+  "version": "0.0.2-0",
   "description": "Dynamic search or filter",
   "main": "index.js",
   "scripts": {
