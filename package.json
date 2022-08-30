@@ -1,0 +1,20 @@
+{
+  "name": "@jearbecerro/dynamicsearch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jearbecerro@github.com/jearbecerro/DynamicObjectSearch.git"
+  },
+  "keywords": [],
+  "author": "Je Ar Becerro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jearbecerro/DynamicObjectSearch/issues"
+  },
+  "homepage": "https://github.com/jearbecerro/DynamicObjectSearch#readme"
+}
