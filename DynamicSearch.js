@@ -14,6 +14,7 @@ export function DynamicSearch(toSearch, list){
                 })
             }   
         }
+        console.log(query)
         Array.prototype.flexFilter = function(query) {
           var matchesFilter, matches = [], count;matchesFilter = function(item) {
             count = 0

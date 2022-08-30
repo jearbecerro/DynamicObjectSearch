@@ -1,6 +1,6 @@
 {
   "name": "@jearbecerro/dynamicsearch",
-  "version": "1.0.1-0",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://jearbecerro@github.com/jearbecerro/DynamicObjectSearch.git"
   },
-  "keywords": [],
+  "keywords": ["Table Search", "dynamic filter", "dynamic search"],
   "author": "Je Ar Becerro",
   "license": "ISC",
   "bugs": {
