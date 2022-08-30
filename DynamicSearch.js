@@ -14,7 +14,7 @@ export function DynamicSearch(toSearch, list){
                 })
             }   
         }
-        console.log(query)
+       
         Array.prototype.flexFilter = function(query) {
   
             var matchesFilter, matches = [], count;
@@ -35,14 +35,11 @@ export function DynamicSearch(toSearch, list){
                 matches.push(this[i]);
               }
             }
-          
             return matches;
           }
-        console.log("was here")
-        console.log(list.flexFilter(query))
         return list.flexFilter(query)      
       } catch (err) {
         console.log(err.message)
-        //return []
+        return []
       }
 }
