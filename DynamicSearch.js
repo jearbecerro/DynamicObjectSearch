@@ -19,7 +19,7 @@ export function DynamicSearch(toSearch, list){
           var matchesFilter, matches = [], count;matchesFilter = function(item) {
             count = 0
             for (var n = 0; n < query.length; n++) {
-              if ( query[n]["Values"].indexOf(item.rawData[query[n]["Field"]]) > -1){
+              if ( query[n]["Values"].indexOf(item[query[n]["Field"]]) > -1){
                 count++;
               }
             }
