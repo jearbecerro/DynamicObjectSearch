@@ -16,7 +16,8 @@ export function DynamicSearch(toSearch, list){
         }
         console.log(query)
         Array.prototype.flexFilter = function(query) {
-          var matchesFilter, matches = [], count;matchesFilter = function(item) {
+          var matchesFilter, matches = [], count;
+          matchesFilter = function(item) {
             count = 0
             for (var n = 0; n < query.length; n++) {
               if ( query[n]["Values"].indexOf(item[query[n]["Field"]]) > -1){
@@ -32,6 +33,7 @@ export function DynamicSearch(toSearch, list){
           }
           return matches;
         }
+        console.log(list.flexFilter(query))
         return list.flexFilter(query)      
       } catch (err) {
         console.log(err.message)
