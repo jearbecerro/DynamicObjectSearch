@@ -1,6 +1,6 @@
 {
   "name": "@jearbecerro/dynamicsearch",
-  "version": "0.0.2-0",
+  "version": "0.0.2-1",
   "description": "Use for table searches which involve dynamic object array queries.",
   "main": "index.js",
   "scripts": {
