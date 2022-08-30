@@ -7,8 +7,8 @@ export function DynamicSearch(toSearch, list){
         for(let i=0; i<keys.length; i++){
             const key = keys[i]
             var value = values[i]
-            value = Array.isArray(value)? value : [value]
             if(value!==""){
+                value = Array.isArray(value)? value : [value]
                 query.push({
                         Field: [key], Values: value
                 })
